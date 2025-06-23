@@ -56,5 +56,11 @@
   </div>
 
   <script async src="https://app3.weatherwidget.org/js/?id=ww_84dfc3416d960"></script>
+    <script>
+    // Recharge automatique toutes les 10 minutes
+    setTimeout(() => {
+      location.reload();
+    }, 10 * 60 * 1000); // 600000 ms
+  </script>
 </body>
 </html>
